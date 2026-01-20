@@ -46,9 +46,9 @@ In addition:
 6. git pull - Fetch from and integrate with another repository or a local branch
 7. git config - Get and set repository or global options
 
-#### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
+#### Assignment Screenshots
 
-*Screenshot of AMPPS running http://localhost*:
+*Screenshot of AMPPS running `http://localhost`*:
 
 ![AMPPS Installation Screenshot](img/ampps.png)
 
