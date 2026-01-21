@@ -19,6 +19,9 @@ USE `mtrombly` ;
 -- -----------------------------------------------------
 -- Table `mtrombly`.`job`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `mtrombly`.`job` ;
+
+SHOW WARNINGS;
 CREATE TABLE IF NOT EXISTS `mtrombly`.`job` (
   `job_id` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `job_title` VARCHAR(45) NOT NULL,
@@ -31,6 +34,9 @@ SHOW WARNINGS;
 -- -----------------------------------------------------
 -- Table `mtrombly`.`employee`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `mtrombly`.`employee` ;
+
+SHOW WARNINGS;
 CREATE TABLE IF NOT EXISTS `mtrombly`.`employee` (
   `emp_id` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `job_id` TINYINT UNSIGNED NOT NULL,
@@ -63,6 +69,9 @@ SHOW WARNINGS;
 -- -----------------------------------------------------
 -- Table `mtrombly`.`dependent`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `mtrombly`.`dependent` ;
+
+SHOW WARNINGS;
 CREATE TABLE IF NOT EXISTS `mtrombly`.`dependent` (
   `dep_id` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `emp_id` SMALLINT UNSIGNED NOT NULL,
@@ -94,6 +103,9 @@ SHOW WARNINGS;
 -- -----------------------------------------------------
 -- Table `mtrombly`.`benefit`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `mtrombly`.`benefit` ;
+
+SHOW WARNINGS;
 CREATE TABLE IF NOT EXISTS `mtrombly`.`benefit` (
   `ben_id` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `ben_name` VARCHAR(45) NOT NULL,
@@ -104,9 +116,12 @@ ENGINE = InnoDB;
 SHOW WARNINGS;
 
 -- -----------------------------------------------------
--- Table `mtrombly`.`pln_id`
+-- Table `mtrombly`.`plan`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mtrombly`.`pln_id` (
+DROP TABLE IF EXISTS `mtrombly`.`plan` ;
+
+SHOW WARNINGS;
+CREATE TABLE IF NOT EXISTS `mtrombly`.`plan` (
   `pln_id` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `emp_id` SMALLINT UNSIGNED NOT NULL,
   `ben_id` TINYINT UNSIGNED NOT NULL,
@@ -134,6 +149,9 @@ SHOW WARNINGS;
 -- -----------------------------------------------------
 -- Table `mtrombly`.`emp_hist`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `mtrombly`.`emp_hist` ;
+
+SHOW WARNINGS;
 CREATE TABLE IF NOT EXISTS `mtrombly`.`emp_hist` (
   `eht_id` MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `emp_id` SMALLINT UNSIGNED NULL,
@@ -221,23 +239,23 @@ COMMIT;
 
 
 -- -----------------------------------------------------
--- Data for table `mtrombly`.`pln_id`
+-- Data for table `mtrombly`.`plan`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mtrombly`;
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 1, 2, 'single', 500, '2013-01-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 2, 3, 'spouse', 1000, '2012-05-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 3, 4, 'family', 1500, '2011-06-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 5, 1, 'single', 220, '2014-05-05', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 4, 5, 'spouse', 600, '2013-11-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 1, 3, 'family', 1800, '2014-02-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 2, 4, 'single', 700, '2013-09-11', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 3, 5, 'spouse', 800, '2014-04-04', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 4, 2, 'family', 1300, '2011-08-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 5, 5, 'single', 690, '2012-12-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 1, 5, 'spouse', 900, '2013-10-05', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 2, 6, 'family', 2000, '2014-07-01', NULL);
-INSERT INTO `mtrombly`.`pln_id` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 3, 6, 'single', 550, '2014-03-15', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 1, 2, 'single', 500, '2013-01-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 2, 3, 'spouse', 1000, '2012-05-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 3, 4, 'family', 1500, '2011-06-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 5, 1, 'single', 220, '2014-05-05', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 4, 5, 'spouse', 600, '2013-11-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 1, 3, 'family', 1800, '2014-02-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 2, 4, 'single', 700, '2013-09-11', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 3, 5, 'spouse', 800, '2014-04-04', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 4, 2, 'family', 1300, '2011-08-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 5, 5, 'single', 690, '2012-12-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 1, 5, 'spouse', 900, '2013-10-05', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 2, 6, 'family', 2000, '2014-07-01', NULL);
+INSERT INTO `mtrombly`.`plan` (`pln_id`, `emp_id`, `ben_id`, `pln_type`, `pln_cost`, `pln_election_date`, `pin_notes`) VALUES (DEFAULT, 3, 6, 'single', 550, '2014-03-15', NULL);
 
 COMMIT;
 
