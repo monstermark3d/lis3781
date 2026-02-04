@@ -19,7 +19,7 @@
     - Populate company and customer table data from sql file
     - Create db users
     - **Screeshots:**
-         - Screenshot of populated tables (mymetadata.sql)
+         - Screenshot of populated tables
          - Screenshot of created users
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")

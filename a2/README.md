@@ -12,7 +12,7 @@
 
 #### README.md file should include the following items:
 
-* Screenshot to populated tables (mymetadata.sql)
+* Screenshot to populated tables
 * Screenshot of created users
 * Sql solution [lis3781_a2_solutions.sql](lis3781_a2_solutions.sql "lis3781_a2_solutions.sql Link")
 
@@ -20,7 +20,7 @@
 
 *Screenshot of populated tables (mymetadata.sql):
 
-![populated tables (mymetadata.sql) Screenshot](img/populated-tables.png)
+![populated tables Screenshot](img/populated-tables.png)
 
 *Screenshot of created users:
 
