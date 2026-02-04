@@ -20,7 +20,7 @@
 
 *Screenshot of populated tables (mymetadata.sql):
 
-![populated tables (mymetadata.sql) Screenshot](img/mymetadata.png)
+![populated tables (mymetadata.sql) Screenshot](img/populated-tables.png)
 
 *Screenshot of created users:
 
