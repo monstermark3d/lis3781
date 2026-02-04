@@ -15,7 +15,12 @@
     - Provide GIT command descriptions
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
-    - TBD
+    - Create sql statements to build company and customer tables
+    - Populate company and customer table data from sql file
+    - Create db users
+    - **Screeshots:**
+         - Screenshot of populated tables (mymetadata.sql)
+         - Screenshot of created users
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
     - TBD

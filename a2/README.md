@@ -4,48 +4,27 @@
 
 ### Assignment 2 Requirements:
 
-*Five Parts:*
+*Three Parts:*
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Create sql statements to build company and customer tables.
+2. Populate company and customer table data from sql file.
+3. Create db users.
 
 #### README.md file should include the following items:
 
-* Bullet-list items
-* 
-* 
-* 
+* Screenshot to populated tables (mymetadata.sql)
+* Screenshot of created users
+* Sql solution [lis3781_a2_solutions.sql](lis3781_a2_solutions.sql "lis3781_a2_solutions.sql Link")
 
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
+#### Assignment Screenshots
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+*Screenshot of populated tables (mymetadata.sql):
 
-#### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
+![populated tables (mymetadata.sql) Screenshot](img/mymetadata.png)
 
-*Screenshot of AMPPS running http://localhost*:
+*Screenshot of created users:
 
-![AMPPS Installation Screenshot](img/ampps.png)
-
-*Screenshot of running java Hello*:
-
-![JDK Installation Screenshot](img/jdk_install.png)
-
-*Screenshot of Android Studio - My First App*:
-
-![Android Studio Installation Screenshot](img/android.png)
+![created users Screenshot](img/created-users.png)
 
 #### Repository Links:
 
