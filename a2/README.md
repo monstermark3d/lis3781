@@ -18,7 +18,7 @@
 
 #### Assignment Screenshots
 
-*Screenshot of populated tables (mymetadata.sql):
+*Screenshot of populated tables :
 
 ![populated tables Screenshot](img/populated-tables.png)
 

@@ -4,48 +4,37 @@
 
 ### Assignment 3 Requirements:
 
-*Five Parts:*
+*Four Parts:*
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Install Oracle server 
+2. Instll Oracle extension for VSCode
+3. Create sql statements to build customer and comodity tables
+4. Populate customer and comodity table data from sql file
 
 #### README.md file should include the following items:
 
-* Bullet-list items
-* 
-* 
-* 
-
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
-
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+* Screenshot of sql for table creation
+* Screenshot of populated tables
+* Screenshot of one report
+* Sql solution [lis3781_a3_solutions.sql](lis3781_a3_solutions.sql "lis3781_a3_solutions.sql Link")
 
 #### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
 
-*Screenshot of AMPPS running http://localhost*:
+*Screenshot of sql for table creation*:
 
-![AMPPS Installation Screenshot](img/ampps.png)
+![Screenshot of SQL to create tables](img/sql.png)
 
-*Screenshot of running java Hello*:
+*Screenshot of populated tables*:
 
-![JDK Installation Screenshot](img/jdk_install.png)
+![Screenshot of customer populated tables](img/customer.png)
 
-*Screenshot of Android Studio - My First App*:
+![Screenshot of commodity populated tables](img/commidity.png)
 
-![Android Studio Installation Screenshot](img/android.png)
+![Screenshot of order populated tables](img/order.png)
+
+*Screenshot of one report*:
+
+![Screenshot of report](img/.png)
 
 #### Repository Links:
 

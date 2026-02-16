@@ -23,7 +23,14 @@
          - Screenshot of created users
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
-    - TBD
+    - Install Oracle server
+    - Install Oracle extension for VSCode
+    - Create sql statements to build customer and comodity tables
+    - Populate customer and comodity table data from sql file
+    - **Screeshots:**
+         - Screenshot of sql for table creation
+         - Screenshot of populated tables
+         - Screenshot of one report
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
     - TBD
