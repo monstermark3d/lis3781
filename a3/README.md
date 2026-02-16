@@ -18,7 +18,7 @@
 * Screenshot of one report
 * Sql solution [lis3781_a3_solutions.sql](lis3781_a3_solutions.sql "lis3781_a3_solutions.sql Link")
 
-#### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
+#### Assignment Screenshots:
 
 *Screenshot of sql for table creation*:
 
@@ -26,9 +26,15 @@
 
 *Screenshot of populated tables*:
 
+*Customer Table*:
+
 ![Screenshot of customer populated tables](img/customer.png)
 
-![Screenshot of commodity populated tables](img/commidity.png)
+*Commodity Table*:
+
+![Screenshot of commodity populated tables](img/commodity.png)
+
+*Oder Table*:
 
 ![Screenshot of order populated tables](img/order.png)
 
