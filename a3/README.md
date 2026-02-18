@@ -40,7 +40,7 @@
 
 *Screenshot of one report*:
 
-![Screenshot of report](img/.png)
+![Screenshot of report](img/report.png)
 
 #### Repository Links:
 
