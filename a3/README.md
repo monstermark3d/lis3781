@@ -42,6 +42,10 @@
 
 ![Screenshot of report](img/report.png)
 
+*Screenshot of report SQL*:
+
+![Screenshot of report](img/report-sql.png)
+
 #### Repository Links:
 
 *Bitbucket Repository*
