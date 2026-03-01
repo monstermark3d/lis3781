@@ -6,46 +6,38 @@
 
 *Five Parts:*
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Create ERD.
+2. Forward engineer ERD to database.
+3. Create query to display table count.
+4. Create query to display populated tables.
+5. Create report query.
 
 #### README.md file should include the following items:
 
-* Bullet-list items
-* 
-* 
-* 
+* Screenshot of ERD;
+* Screenshot of number of tables (11);
+* Screenshot of populated tables (11);
+* Screenshot: of Report, and SQL code solution.
+* Sql solution [lis3781_p1_solutions.sql](lis3781_p1_solutions.sql "lis3781_p1_solutions.sql Link")
 
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
+#### Assignment Screenshots:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+*Screenshot of ERD*:
 
-#### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
+![P1 ERD](img/erd.png)
 
-*Screenshot of AMPPS running http://localhost*:
+*Screenshot of number of tables*:
 
-![AMPPS Installation Screenshot](img/ampps.png)
+![P1 Number of tables](img/num_tables.png)
 
-*Screenshot of running java Hello*:
+*Screenshot of populated tables*:
 
-![JDK Installation Screenshot](img/jdk_install.png)
+![P1 Populated tables](img/populated_tables.png)
 
-*Screenshot of Android Studio - My First App*:
+*Screenshot of report*:
 
-![Android Studio Installation Screenshot](img/android.png)
+![P1 Report](img/report.png)
+
 
 #### Repository Links:
 

@@ -34,12 +34,18 @@
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
     - TBD
-
+       
 5. [A5 README.md](a5/README.md "My A5 README.md file")
     - TBD
 
 6. [P1 README.md](p1/README.md "My P1 README.md file")
-    - TBD
+    - Create ERD
+    - Link to your lis3781_p1_solutions.sql file—including tables AND data!
+    - **Screeshots:**
+        - Screenshot of ERD;
+        - Screenshot of number of tables (11);
+        - Screenshot of populated tables (11);
+        - Screenshot: of Report, and SQL code solution.
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
     - TBD
