@@ -34,9 +34,13 @@
 
 ![P1 Populated tables](img/populated_tables.png)
 
+*Screenshot of report sql*:
+
+![P1 Report SQL](img/report_sql.png)
+
 *Screenshot of report*:
 
-![P1 Report](img/report.png)
+[![P1 Report](img/report.png)](img/report.png)
 
 
 #### Repository Links:
