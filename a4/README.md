@@ -6,46 +6,32 @@
 
 *Five Parts:*
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Install SQL express
+2. Install SQL extension for VSCode
+3. Create SQL statements to build 14 tables
+4. Populate 14 table data from sql file
+5. Screenshot report
 
 #### README.md file should include the following items:
 
-* Bullet-list items
-* 
-* 
-* 
+* Screenshot of ERD;
+* Screenshot: of Report, and SQL code solution.
+* Sql solution [lis3781_a4_solutions.sql](lis3781_a4_solutions.sql "lis3781_a4_solutions.sql Link")
 
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
+#### Assignment Screenshots:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+*Screenshot of ERD*:
 
-#### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
+![A4 ERD](img/erd.png)
 
-*Screenshot of AMPPS running http://localhost*:
+*Screenshot of report sql*:
 
-![AMPPS Installation Screenshot](img/ampps.png)
+![A4 Report SQL](img/report_sql.png)
 
-*Screenshot of running java Hello*:
+*Screenshot of report*:
 
-![JDK Installation Screenshot](img/jdk_install.png)
+[![A4 Report](img/report.png)](img/report.png)
 
-*Screenshot of Android Studio - My First App*:
-
-![Android Studio Installation Screenshot](img/android.png)
 
 #### Repository Links:
 

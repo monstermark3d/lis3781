@@ -33,7 +33,14 @@
          - Screenshot of one report
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
-    - TBD
+    - Install SQL express
+    - Install SQL extension for VSCode
+    - Create SQL statements to build 14 tables
+    - Populate 14 table data from sql file
+    - **Screeshots:**
+         - Screenshot of sql for table creation
+         - Screenshot of populated tables
+         - Screenshot of one report
        
 5. [A5 README.md](a5/README.md "My A5 README.md file")
     - TBD
