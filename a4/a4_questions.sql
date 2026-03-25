@@ -26,7 +26,7 @@ IF OBJECT_ID(N'dbo.v_paid_invoice_total',N'V') IS NOT NULL
 GO
 
 CREATE VIEW dbo.v_paid_invoice_total AS
-  SELECT p.per_id, per_fname, per_lname, sum(inv_total) as sum_total, FORMAT(sum(inv_total),'C', 'en-us') as v_paid_invoice_total
+  SELECT p.per_id, per_fname, per_lname, sum(inv_total) as sum_total, FORMAT(sum(inv_total),'C', 'en-us') as paid_invoice_total
   FROM dbo.person p
     JOIN dbo.customer c ON p.per_id = c.per_id
     JOIN dbo.contact ct on c.per_id = ct.per_cid
@@ -37,7 +37,7 @@ CREATE VIEW dbo.v_paid_invoice_total AS
   GROUP BY p.per_id, per_fname, per_lname
 GO
 
-SELECT per_id, per_fname, per_lname, v_paid_invoice_total from dbo.v_paid_invoice_total order by sum_total desc;
+SELECT per_id, per_fname, per_lname, paid_invoice_total from dbo.v_paid_invoice_total order by sum_total desc;
 GO
 --
 -- -------------------------------------------
