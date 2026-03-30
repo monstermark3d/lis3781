@@ -663,3 +663,23 @@ VALUES
 (5, 8885001234, 'w', '800 number for the office.');
 
 SELECT * FROM dbo.phone;
+
+/* Report SQL */
+IF OBJECT_ID(N'dbo.v_paid_invoice_total',N'V') IS NOT NULL
+  DROP VIEW dbo.v_paid_invoice_total;
+GO
+
+CREATE VIEW dbo.v_paid_invoice_total AS
+  SELECT p.per_id, per_fname, per_lname, sum(inv_total) as sum_total, FORMAT(sum(inv_total),'C', 'en-us') as paid_invoice_total
+  FROM dbo.person p
+    JOIN dbo.customer c ON p.per_id = c.per_id
+    JOIN dbo.contact ct on c.per_id = ct.per_cid
+    JOIN dbo.[order] o ON ct.cnt_id = o.cnt_id
+    JOIN dbo.invoice i ON o.ord_id = i.ord_id
+  WHERE inv_paid != 0
+
+  GROUP BY p.per_id, per_fname, per_lname
+GO
+
+SELECT per_id, per_fname, per_lname, paid_invoice_total from dbo.v_paid_invoice_total order by sum_total desc;
+GO

@@ -24,6 +24,10 @@
 
 ![A4 ERD](img/erd.png)
 
+*Screenshot of tables and data*:
+
+![Tables-Data](img/table_data.png)
+
 *Screenshot of report sql*:
 
 ![A4 Report SQL](img/report_sql.png)
