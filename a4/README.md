@@ -14,9 +14,10 @@
 
 #### README.md file should include the following items:
 
-* Screenshot of ERD;
+* Screenshot of ERD.
+* Screenshot of tables and data.
 * Screenshot: of Report, and SQL code solution.
-* Sql solution [lis3781_a4_solutions.sql](lis3781_a4_solutions.sql "lis3781_a4_solutions.sql Link")
+* Sql solution [lis3781_a4_solutions.sql](lis3781_a4_solutions.sql "lis3781_a4_solutions.sql Link").
 
 #### Assignment Screenshots:
 
