@@ -38,12 +38,17 @@
     - Create SQL statements to build 14 tables
     - Populate 14 table data from sql file
     - **Screeshots:**
-         - Screenshot of sql for table creation
+         - Screenshot of ERD
          - Screenshot of populated tables
          - Screenshot of one report
        
 5. [A5 README.md](a5/README.md "My A5 README.md file")
-    - TBD
+    - Create SQL statements to build 14 tables
+    - Populate 14 table data from sql file
+    - **Screeshots:**
+         - Screenshot of ERD
+         - Screenshot of populated tables
+         - Screenshot of one report
 
 6. [P1 README.md](p1/README.md "My P1 README.md file")
     - Create ERD

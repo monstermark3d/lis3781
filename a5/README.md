@@ -4,48 +4,37 @@
 
 ### Assignment 5 Requirements:
 
-*Five Parts:*
+*Four Parts:*
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Expand A4 database to extend the capabilities of data warehousing analytics and business intelligence (BI)
+2. Create SQL statements to build all tables
+3. Populate table data from sql file
+4. Screenshot report
 
 #### README.md file should include the following items:
 
-* Bullet-list items
-* 
-* 
-* 
-
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
-
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+* Screenshot of ERD.
+* Screenshot of tables and data.
+* Screenshot: of Report, and SQL code solution.
+* Sql solution [lis3781_a5_solutions.sql](lis3781_a5_solutions.sql "lis3781_a5_solutions.sql Link").
 
 #### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
 
-*Screenshot of AMPPS running http://localhost*:
+*Screenshot of ERD*:
 
-![AMPPS Installation Screenshot](img/ampps.png)
+[![A5 ERD](img/erd.png)](img/erd.png)
 
-*Screenshot of running java Hello*:
+*Screenshot of tables and data*:
 
-![JDK Installation Screenshot](img/jdk_install.png)
+![Tables-Data](img/table_data.png)
 
-*Screenshot of Android Studio - My First App*:
+*Screenshot of report sql*:
 
-![Android Studio Installation Screenshot](img/android.png)
+![A5 Report SQL](img/report_sql.png)
+
+*Screenshot of report*:
+
+[![A5 Report](img/report.png)](img/report.png)
 
 #### Repository Links:
 
