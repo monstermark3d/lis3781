@@ -43,8 +43,8 @@
          - Screenshot of one report
        
 5. [A5 README.md](a5/README.md "My A5 README.md file")
-    - Create SQL statements to build 14 tables
-    - Populate 14 table data from sql file
+    - Create SQL statements to build tables
+    - Populate table data from sql file
     - **Screeshots:**
          - Screenshot of ERD
          - Screenshot of populated tables

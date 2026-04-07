@@ -18,7 +18,7 @@
 * Screenshot: of Report, and SQL code solution.
 * Sql solution [lis3781_a5_solutions.sql](lis3781_a5_solutions.sql "lis3781_a5_solutions.sql Link").
 
-#### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
+#### Assignment Screenshots:
 
 *Screenshot of ERD*:
 
