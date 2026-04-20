@@ -60,4 +60,9 @@
         - Screenshot: of Report, and SQL code solution.
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
-    - TBD
+    - Install MongoDB
+    - Install MongoSH
+    - Import sample data into collection
+    - **Screeshots:**
+         - Screenshot of Mongodb shell command
+         - Screenshot of one report and JSON code

@@ -6,46 +6,34 @@
 
 *Five Parts:*
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Install MongoDB
+2. Install MongoSH
+3. Import sample data into collection
+4. Screenshot of Mongodb shell command
+5. Screenshot of one report and JSON code
 
 #### README.md file should include the following items:
 
-* Bullet-list items
-* 
-* 
-* 
+* Screenshot of Mongodb shell command
+* Screenshot of one report and JSON code
 
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
+#### Assignment Screenshots:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+*Screenshot of MongoDB shell command*:
 
-#### Assignment Screenshots (Note: **BE SURE** to modify for specific course!):
+![MongoDB shell command Screenshot](img/shell_1.png)
 
-*Screenshot of AMPPS running http://localhost*:
+![MongoDB shell command Screenshot](img/shell_2.png)
 
-![AMPPS Installation Screenshot](img/ampps.png)
+![MongoDB shell command Screenshot](img/shell_3.png)
 
-*Screenshot of running java Hello*:
+*Screenshot of report JSON*:
 
-![JDK Installation Screenshot](img/jdk_install.png)
+![Report JSON Screenshot](img/report_json.png)
 
-*Screenshot of Android Studio - My First App*:
+*Screenshot of report*:
 
-![Android Studio Installation Screenshot](img/android.png)
+![Report Screenshot](img/report.png)
 
 #### Repository Links:
 
