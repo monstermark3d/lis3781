@@ -16,6 +16,7 @@
 
 * Screenshot of Mongodb shell command
 * Screenshot of one report and JSON code
+* JSON solution [lis3781_p2_solutions.js](lis3781_p2_solutions.js "lis3781_p2_solutions.js Link")
 
 #### Assignment Screenshots:
 
