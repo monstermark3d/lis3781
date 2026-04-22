@@ -73,7 +73,7 @@ db.restaurants.find( { "grades.score": {$gt: 80}})
 
 // 17
 
-db.restaurants.insert(
+db.restaurants.insertOne(
     {
     address: {
         building: '1000',
