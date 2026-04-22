@@ -37,7 +37,7 @@ db.restaurants.find( {"address.zipcode" : "10075"})
 
 // 9
 
-db.restaurants.find({"cuisine": "Chicken ", "address.zipcode" : "10024"});
+db.restaurants.find({"cuisine": "Chicken", "address.zipcode" : "10024"});
 
 db.restaurants.find({$and: [{"cuisine": "Chicken"}, {"address.zipcode" : "10024"}]});
 
@@ -48,6 +48,8 @@ db.restaurants.find({$or: [{"cuisine": "Chicken"}, {"address.zipcode" : "10024"}
 // 11
 
 db.restaurants.find( { "borough": "Queens", "cuisine": "Jewish/Kosher"}).sort({"address.zipcode": -1})
+
+db.restaurants.find( {$and: [{ "borough": "Queens"}, {"cuisine": "Jewish/Kosher"}]}).sort({"address.zipcode": -1})
 
 // 12
 
@@ -95,7 +97,7 @@ db.restaurants.find().sort({_id:-1}).limit(1).pretty()
 
 db.restaurants.find( { "name" : "White Castle"} ).limit(1)
 
-db.restaurants.update(
+db.restaurants.updateOne(
     { _id: ObjectId('69e03378fd7ab1710a25a28c')},
     {
         $set: { "cuisine": "Steak and Sea Food" }, $currentDate: {"lastModified":true}  
